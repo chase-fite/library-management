@@ -12,8 +12,7 @@
 
     <ol>
         {% for library in all_libraries %}
-        <li>{{ library.title }}</li>
-        <li>{{ library.address }}</li>
+        <li>{{ library.title }}: {{ library.address }}</li>
         {% endfor %}
     </ol>
 </body>
